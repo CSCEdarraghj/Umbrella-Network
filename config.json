@@ -1,0 +1,28 @@
+{
+    "project_name": "Umbrella Network",
+    "version": "1.0",
+    "description": "A beginner-friendly networking toolkit for safe diagnostics, DNS lookups, port checks, and IP configuration planning.",
+    "default_ping_host": "8.8.8.8",
+    "default_dns_host": "example.com",
+    "traceroute_host": "example.com",
+    "default_port_host": "example.com",
+    "default_port": 80,
+    "default_ports": [
+        22,
+        53,
+        80,
+        443
+    ],
+    "port_timeout": 2,
+    "default_ip_address": "192.168.1.25",
+    "default_subnet_mask": "255.255.255.0",
+    "default_gateway": "192.168.1.1",
+    "default_dns_server": "8.8.8.8",
+    "web_host": "127.0.0.1",
+    "web_port": 8080,
+    "p2p_host": "127.0.0.1",
+    "p2p_port": 9090,
+    "allow_large_port_scans": false,
+    "max_common_ports_only": true,
+    "requires_permission_reminder": true
+}
